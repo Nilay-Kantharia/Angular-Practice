@@ -9,6 +9,7 @@ import { GetApiComponent } from './components/apiIntegration/get-api/get-api.com
 import { PostApiComponent } from './components/apiIntegration/post-api/post-api.component';
 import { ReactiveComponent } from './components/forms/reactive/reactive.component';
 import { PubSubComponent } from './components/pub-sub/pub-sub.component';
+import { ParentComponent } from './components/in-out/parent/parent.component';
 
 export const routes: Routes = [
     {
@@ -50,5 +51,9 @@ export const routes: Routes = [
     {
         path:'pub-sub',
         component:PubSubComponent
+    },
+    {
+        path:'input-output',
+        component:ParentComponent
     }
 ];
